@@ -2,7 +2,7 @@ const { ObjectID } = require("mongodb");
 
 const MongoClient = require("mongodb").MongoClient;
 const ObjcetId = require("mongodb").ObjectID;
-const url = "mongodb://localhost:27017/authorDb";
+const url = "mongodb://mongo:27017/authorDb";
 const mongoOptions = { useNewUrlParser: true };
 
 const state = {
