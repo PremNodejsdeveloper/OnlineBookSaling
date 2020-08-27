@@ -8,7 +8,6 @@ const collection = "author";
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 db.connect((err) => {
   if (err) {
     console.log("unable to connect to database");
